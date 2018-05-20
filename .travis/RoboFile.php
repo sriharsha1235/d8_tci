@@ -98,7 +98,8 @@ class RoboFile extends \Robo\Tasks
         $tasks = [];
         $tasks[] = $this->taskFilesystemStack()
             ->mkdir('mariadb-init');
-        $tasks[] = $this->taskExec('wget ' . getenv('DB_DUMP_URL'))
+//        $tasks[] = $this->taskExec('wget ' . getenv('DB_DUMP_URL'))
+	$tasks[] = $this->taskExec('wget https://www.dropbox.com/s/9fr0a2ky1eyzxko/drupal8.sql?dl=0')
             ->dir('mariadb-init');
         return $tasks;
     }

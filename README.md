@@ -17,3 +17,5 @@ one:
 
 If you want to install this into your project, follow instructions at the
 [CircleCI installer for Drupal 8](https://github.com/Lullabot/drupal8ci#travis-ci).
+
+https://coveralls.io/repos/github/sriharsha1235/d8_tci/badge.svg?branch=master(Coverage Status)!:https://coveralls.io/github/sriharsha1235/d8_tci?branch=master
